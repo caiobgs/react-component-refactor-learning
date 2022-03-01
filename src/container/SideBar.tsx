@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import { Button } from "../components/Button";
+
 import { api } from "../services/api";
-import { Button } from "./Button";
+
 
 interface GenreProps {
   id: number;

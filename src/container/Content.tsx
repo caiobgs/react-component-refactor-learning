@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { MovieCard } from "../components/MovieCard";
+import { MovieCard } from "../components/movie/MovieCard";
+
 import { api } from "../services/api";
 
 
